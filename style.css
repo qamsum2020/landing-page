@@ -3,9 +3,13 @@
   padding: 0;
 }
 
+.main {
+
+}
+
 .header {
   background-color: #1f2937;
-  padding: 20px 10px;
+  padding: 16px 10px;
   display: flex;
   justify-content: space-between;
   flex: 1;
@@ -45,7 +49,7 @@ li a:visited {
 }
 
 .hero-section {
-  padding: 100px 160px;
+  padding: 80px 160px;
   background-color: #1f2937;
   display: flex;
   justify-content: space-between;
@@ -53,18 +57,18 @@ li a:visited {
 }
 
 .hero-section h1 {
-  font-family: roboto;
+  font-family: Arial;
   font-size: 48px;
   color: #f9faf8; 
 }
 
 .hero-section p {
-  font-family: roboto;
+  font-family: Arial;
   font-size: 18px;
   color: #e5e7eb;
 }
 
-.button {
+.hero-section button {
   background-color: #3882f6;
   color: #f9faf8;
   font-family: 'Courier New', Courier, monospace;
@@ -75,8 +79,123 @@ li a:visited {
   border-radius: 5px;
 }
 
-img {
-  width: 470px;
-  height: 250px;
+.hero-section img {
+  width: 460px;
+  height: 230px;
   margin-left: 70px;
+}
+
+.illustration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+
+.illustration h1 {
+  font-family: Arial;
+  font-size: 36px;
+  color: #1f2937;
+  margin-bottom: 40px;
+  
+}
+
+.ill-pics {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ill-pics img {
+  width: 130px;
+  height: 130px;
+  margin: 1px 24px;
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+}
+
+.ill-desc {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ill-desc p {
+  width: 130px;
+  margin: 1px 24px;
+  border: 4px solid white;
+  text-align: center;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.inspiring-quote {
+  background-color: #e5e7eb;
+  padding: 150px 222px;
+}
+
+.inspiring-quote p {
+  font-family: Arial;
+  font-style: italic;
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.inspiring-quote h3 {
+  font-family: Arial;
+  font-weight: bold;
+  padding-left: 580px;
+}
+
+.call2action {
+  display: flex;
+  justify-content: center;
+}
+
+.color-blue {
+  background-color: #3882f6;
+  display: flex;
+  margin: 100px 160px;
+  padding: 50px 100px;
+  border: 0px solid #3882f6;
+  border-radius: 10px;
+}
+
+.heading-text {
+  padding-right: 180px;
+}
+
+.heading-text h3 {
+  color: #f9faf8;
+  font-family: Arial;
+}
+
+.heading-text p {
+  color: #e5e7eb;
+  font-family: Arial;
+}
+
+.signup-btn {
+  display: flex;
+  align-items: flex-end;
+}
+
+.signup-btn button {
+  border: 2px solid #f9faf8;
+  border-radius: 5px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px 20px;
+}
+
+.footer {
+  background-color: #1f2937;
+  padding: 30px 100px;
+  
+}
+
+.footer p {
+  text-align: center;
+  color: #f9faf8;
 }
